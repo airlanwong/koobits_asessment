@@ -59,7 +59,7 @@ aws_credentials_path = '~/.aws/credentials'
 # file_key = r'demo/ingestion/year=2023/month=09/day=15/xAPI-Edu-Data.csv'
 # archive_file_key = r'demo/archive/xAPI-Edu-Data.csv'
 
-# specifiy the URL, use a singapore api for get request
+# specifiy the URL. For this question 10 example, we will use a actual api for get request (API is about Singapore PSI)
 # change the URL to fit to the testing
 URL = 'https://api.data.gov.sg/v1/environment/pm25'
 key_prefix = 'demo/ingestion/year=2023/month=09/day=15/'
