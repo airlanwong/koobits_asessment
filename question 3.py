@@ -46,7 +46,8 @@ import json
 # default to be left as blank for aws_access_key_id and aws_secret_access_key
 # get_aws_credentials method will obtain the credentials through '~/.aws/credentials'
 # best practice is to store the credentials in secret manager for store and retrieval, not expose the credentials in the script
-region_name = 'ap-southeast-1'
+# Insert the region_name for testing
+region_name = ''
 
 config = configparser.RawConfigParser()
 aws_credentials_path = '~/.aws/credentials'
@@ -61,7 +62,7 @@ aws_credentials_path = '~/.aws/credentials'
 # specifiy the URL, use a singapore api for get request
 # change the URL to fit to the testing
 URL = 'https://api.data.gov.sg/v1/environment/pm25'
-key_prefix = 'demo/ingestion'
+key_prefix = 'demo/ingestion/year=2023/month=09/day=15/'
 
 logging.basicConfig(level = logging.INFO)
 
