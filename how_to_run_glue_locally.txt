@@ -1,4 +1,4 @@
-This is for question 10 as it requires to develop a python script on aws glue
+This is for question 10 as docker is needed to develop a python script on aws glue
 
 Step 1: Install AWS CLI
 Link : https://aws.amazon.com/cli/
