@@ -105,8 +105,9 @@ def transformation_source_data_via_sql(data,sql_query,table):
 config = configparser.RawConfigParser()
 aws_credentials_path = '~/.aws/credentials'
 aws_access_key_id, aws_secret_access_key = get_aws_credentials(aws_credentials_path)
-region_name = 'ap-southeast-1'
-bucket_name = 'demo-alan-wong-s3'
+# Insert the region_name and bucket_name for testing
+region_name = ''
+bucket_name = ''
 prefix_key = r'demo/ingestion/year=2023/month=09/day=15'
 destination_prefix_key = r'demo/post_ingestion/year=2023/month=09/day=15'
 destination_file_key = f'{destination_prefix_key}/transformed_data.parquet'
